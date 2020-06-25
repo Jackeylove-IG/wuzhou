@@ -1,0 +1,27 @@
+ input,button{
+  border: 0 none;
+  padding: 0;
+  outline-style: none;
+ }
+ .search{
+  margin: 100px auto;
+  width: 258px;
+  height: 40px;
+  overflow: hidden;
+ }
+ .search input{
+  float: left;
+  width: 208px;
+  height: 40px;
+  background: url("left.jpg") no-repeat;
+  
+  padding-left:8px;
+  color: #ccc;
+ }
+ .search button{
+  float: left;
+  height: 40px;
+  width: 42px;
+  background: url("right.jpg") no-repeat;
+  cursor: pointer;
+ } 

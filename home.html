@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Author Meta -->
+        <meta name="author" content="Themefisher">
+        <!-- Meta Description -->
+        <meta name="description" content="">
+        <!-- Meta Keyword -->
+        <meta name="keywords" content="">
+        <!-- meta character set -->
+        <meta charset="utf-8">
+        <!-- Site Title -->
+        <title>Home</title>
+        <!-- Favicon -->
+        <link rel="stylesheet" type="text/css" href="css/index/index.css"/>
+        <link rel="shortcut icon" href="img/icons/">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:200,300,400,900,700,500,300' rel='stylesheet' type='text/css'>
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="css/index/font-awesome.min.css">
+        <link rel="stylesheet" href="css/index/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index/owl.carousel.css">
+        <link rel="stylesheet" href="css/index/justifiedGallery.min.css">
+        <link rel="stylesheet" href="css/index/et-font.css">
+        <link rel="stylesheet" href="css/index/animate.css">
+        <link rel="stylesheet" href="css/index/owl.carousel.css">
+        <link rel="stylesheet" href="css/index/owl.theme.css">
+        <link rel="stylesheet" href="css/index/main.css">
+		
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->	
+        <script>
+		  window.onload=function () {
+			   function $id(id) {
+			    return document.getElementById(id);
+			   				} //
+			   $id("txt").onfocus=function () {
+			    if (this.value=="请输入..."){
+			     this.value=""; //赋值
+			     this.style.color="#333"; //黑色
+			    }
+			   } //当用户点击时初始文字消失
+			   $id("txt").onblur=function () {
+			    if (this.value==""){
+			     this.value="请输入您的内容"
+			     this.style.color="#ccc"; //透明灰
+			    } //谁调用this指向谁
+			   }//当为空时用户点击其他地方显示初始化状态
+			  $id("btn").onclick=function () {
+			   alert("我可以点击");
+			  } //这边只是试验一下按钮功能还在不在
+			  }
+ 		</script>
+    </head>
+    <style type="text/css">
+		.div1 { font-size: 14px; }
+		.div1:hover { font-size: 50px; }
+	</style>
+	
+    <body>
+        <!-- #preloader -->
+        <!-- end #preloader -->
+        <!-- #preloader -->
+        <div id="preloader">
+            <div class="preloader loading">
+                <span class="slice"></span>
+                <span class="slice"></span>
+                <span class="slice"></span>
+                <span class="slice"></span>
+                <span class="slice"></span>
+                <span class="slice"></span>
+            </div>
+        </div>
+        <!-- end #preloader -->
+        <header class="site-header navbar-fixed-top navbar-default">
+        	<!--导航条-->
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <!--<img src="img/logo.png" alt="">-->
+                    </a>
+                </div>
+                
+                <div class="nav-toggle hidden-xs">
+                    <button class="toggle-btn">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <nav class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav main-manu">
+                        <li><a href="politics.html">中国政治</a></li>
+                        <li><a href="economics.html">中国经济</a></li>
+                        <li><a href="armyindex.html">中国军事</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </nav><!-- /.navbar-collapse -->
+            </div>
+        </header>
+		
+        <div class="home-banner fullscreen" >
+            <div class="gradient"></div>
+            <div class="banner-content dtable fullscreen">
+                <div class="content-inner dtablecell">
+                    <div class="container">
+                        <a href="index.html" style="color: white;">
+                        	<h1 class="div1">了不起的中国</h1>
+                        	<p>带你了解不一样的中国</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/vendor/jquery-1.11.1.min.js"></script>
+        <script src="js/index/bootstrap.min.js"></script>
+        <script src="js/index/owl.carousel.js"></script>
+        <script src="js/index/wow.min.js"></script>
+        <script src="js/index/owl.carousel.min.js"></script>
+        <script src="js/index/main.js"></script>
+    </body>
+</html>
