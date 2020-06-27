@@ -53,7 +53,7 @@ body {
 			margin: 0 auto;
 			/*border: 1px black solid;*/
 		}
-		.head_2 ul li{
+		.head_2 >ul >li{
 			float: left;
 			margin: 0px 10px;
 			list-style: none;
